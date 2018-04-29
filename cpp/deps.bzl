@@ -51,7 +51,7 @@ DEPS = {
     "com_github_madler_zlib": {
         "rule": "new_http_archive",
         "url": "https://github.com/gabrfarina/zlib/archive/fix.zip", #v1.2.11
-        "sha256": "8f2bace9c05b7a4ad87576be4d25607fec08797d8565d5b8dd4b6fe8147a9fc3",
+        # "sha256": "8f2bace9c05b7a4ad87576be4d25607fec08797d8565d5b8dd4b6fe8147a9fc3",
         "strip_prefix": "zlib-fix",
         "build_file": str(Label("//protobuf:build_file/com_github_madler_zlib.BUILD")),
     },

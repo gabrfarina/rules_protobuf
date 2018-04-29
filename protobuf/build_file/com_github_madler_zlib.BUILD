@@ -23,7 +23,7 @@ cc_library(
         "inftrees.c",
         "trees.c",
         "uncompr.c",
-        # "zutil.c",
+        "zutil.c",
     ],
     hdrs = [
         "crc32.h",
